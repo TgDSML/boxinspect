@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and models
+ml/data/*
+ml/models/*
+storage/images/*
+
+# Keep directories
+!ml/data/.gitkeep
+!ml/models/.gitkeep
+!storage/images/.gitkeep
